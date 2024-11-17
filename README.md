@@ -17,7 +17,6 @@ $ python3 -m venv venv
 
 ### Activate it
 
-```
 Windows:
 ```console
 venv\Scripts\activate
