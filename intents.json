@@ -1,0 +1,131 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day"],
+      "responses": [
+        "Hello! can I assist with your railway booking?",
+        "Hi there! Ready to plan your journey?",
+        "Hello! Need help with railway tickets?"
+        
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later","No"],
+      "responses": [
+        "Goodbye! Safe travels!",
+        "Bye! Happy to help with your next journey!",
+        "See you soon, safe journey!",
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Much appreciated"],
+      "responses": ["You're welcome!", "Glad to help!", "My pleasure!"]
+    },
+    {
+      "tag": "railway_ticket",
+      "patterns": [
+        "I want to book a railway ticket",
+        "Can you help me book a train ticket?",
+        "I need a train ticket for my trip",
+        "Yes"
+      ],
+      "responses": [
+        "Sure, I can help with that. Please provide your destination for the month of Decemebr",
+        "Absolutely! Looking to make December unforgettable? Let's explore your options!",
+        "December is a magical time to travel! Where would you like to go this winter?",
+        "December destinations are calling! Are you ready to answer?"
+      ]
+    },
+    {
+      "tag": "Number_seat",
+      "patterns": [
+        "1",
+        "2",
+        "3",
+        "4","5","6"
+      ],
+      "responses": [
+        "Sure,Please provide your travel date ",
+        "Great!Please provide your travel date"
+      ]
+    },
+    {
+      "tag": "destination",
+      "patterns": [
+        "I want to go to Mumbai",
+        "Traveling to Delhi",
+        "Destination is Kolkata",
+        "Delhi",
+        "Mumbai",
+        "Chennai",
+        "Kolkata"
+      ],
+      "responses": [
+        "Got it! How many seats will you need?",
+        "Understood. How many people are traveling?"
+      ]
+    },
+    {
+      "tag": "travel_date",
+      "patterns": [
+        "On 15th December",
+        "Traveling on 1st December",
+        "I need a ticket for 20th December","25th","26th","27th","28th","29th","30th","31th","1st","2nd","3rd",
+        "3rd","4th","5th","6th","7th","8th","9th","10th","11th","12th","13th","14th","15th","16th","21th",
+        "17th","18th","19th","20th","22th","23th","24th"
+      ],
+      "responses": [
+        "Noted! Would you prefer a specific class like Sleeper or AC?",
+        "Date set. Do you have a preferred class for the journey?",
+        "Would you prefer an AC coach to stay cozy this December or a non-AC coach for a more economical option?",
+        "Sleeper class for budget trips or First Class AC for extra comfort? What suits your travel plans this December?",
+        "For overnight December trips, Sleeper Class or AC Coaches are ideal. What's your preference?"
+
+      ]
+    },
+    {
+      "tag": "class_preference",
+      "patterns": [
+        "AC class",
+        "Sleeper class",
+        "First Class"
+      ],
+      "responses": [
+        "What's your budget for this trip? Knowing your price range will help me suggest the best options!(Rs.1,000 - Rs.2,000/Rs.2,000 - Rs.4,000/Rs.4,000 and above)",
+        "To make it easier, can you tell me your expected price range? I'll show you the most relevant options.(Rs.1,000 - Rs.2,000/Rs.2,000 - Rs.4,000/Rs.4,000 and above)",
+        "Let's narrow it down! Are you aiming for tickets ranging from Rs.1,000 - Rs.2,000 or Rs.2,000 - Rs.4,000 or Rs.4,000 and above)"
+      ]
+    },
+    {
+      "tag": "Pricing",
+      "patterns": [
+        "Rs.1,000 - Rs.2,000",
+        "Rs.2000 - Rs.4,000",
+        "Rs.4000 and above"
+      ],
+      "responses": [
+        "How would you like to pay for your ticket? I support options like credit/debit cards, UPI, net banking, and Paytm.",
+        "Payment is easy! Would you like to use UPI, a credit/debit card, Paytm or net banking?",
+        "I can assist you with payment via multiple modes. Which one do you prefer?"
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "Can I pay with credit card?",
+        "Do you accept UPI?",
+        "Is cash payment available?",
+        "credit card","UPI","Paytm","Net banking","debit card"
+      ],
+      "responses": [
+        "Thank you for using our service! Based on the details you provided, we've curated various trip plans for you. These will be shared directly with you on the phone number you used to log in. If you have any questions or need assistance, feel free to reach out. Safe travels!",
+        "Thank you for your details! We've customized a few trip plans for you, which will be sent directly to the phone number you used to log in. Happy travels!",
+        "We've got your trip plans ready! Based on the details you've shared, they'll be sent to your phone number shortly. Let us know if you have any questions or need help along the way."
+      ]
+    }
+  ]
+}
