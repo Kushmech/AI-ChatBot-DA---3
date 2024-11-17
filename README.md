@@ -16,9 +16,7 @@ $ python3 -m venv venv
 ```
 
 ### Activate it
-Mac / Linux:
-```console
-. venv/bin/activate
+
 ```
 Windows:
 ```console
@@ -26,11 +24,11 @@ venv\Scripts\activate
 ```
 ### Install PyTorch and dependencies
 
-For Installation of PyTorch see [official website](https://pytorch.org/).
+
 
 You also need `nltk`:
  ```console
-pip install nltk
+pip install nltk torch
  ```
 
 If you get an error during the first run, you also need to install `nltk.tokenize.punkt`:
